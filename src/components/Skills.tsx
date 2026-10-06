@@ -10,47 +10,53 @@ interface SkillGroup {
 
 const skillGroups: SkillGroup[] = [
   {
-    category: 'AI / Machine Learning',
-    emoji: '🤖',
-    color: 'from-violet-500/10 to-indigo-500/10 border-violet-500/20',
-    skills: [
-      'Artificial Intelligence',
-      'Machine Learning',
-      'Computer Vision',
-      'Face Recognition',
-      'Image Processing',
-      'OpenCV',
-    ],
-  },
-  {
     category: 'Programming',
     emoji: '💻',
     color: 'from-indigo-500/10 to-blue-500/10 border-indigo-500/20',
     skills: ['Python', 'Java', 'C', 'JavaScript', 'SQL'],
   },
   {
+    category: 'AI & Computer Vision',
+    emoji: '🤖',
+    color: 'from-violet-500/10 to-purple-500/10 border-violet-500/20',
+    skills: [
+      'Artificial Intelligence',
+      'Machine Learning',
+      'Computer Vision',
+      'OpenCV',
+      'Face Recognition',
+      'Image Processing',
+    ],
+  },
+  {
     category: 'Web Development',
     emoji: '🌐',
     color: 'from-emerald-500/10 to-teal-500/10 border-emerald-500/20',
-    skills: ['React.js', 'Flask', 'Node.js', 'REST APIs', 'HTML5', 'CSS3', 'Tailwind CSS'],
+    skills: ['React.js', 'Flask', 'FastAPI', 'Node.js', 'REST APIs', 'Tailwind CSS', 'Vite'],
   },
   {
-    category: 'Data & Analytics',
-    emoji: '📊',
-    color: 'from-cyan-500/10 to-sky-500/10 border-cyan-500/20',
-    skills: ['Pandas', 'NumPy', 'Data Analysis', 'MySQL', 'Data Visualization'],
-  },
-  {
-    category: 'Cloud & DevOps',
-    emoji: '☁️',
+    category: 'Databases',
+    emoji: '🗄️',
     color: 'from-amber-500/10 to-orange-500/10 border-amber-500/20',
-    skills: ['AWS', 'Google Cloud', 'Docker', 'GitHub Actions', 'Vercel'],
+    skills: ['MySQL', 'SQLite', 'Firebase', 'Firestore', 'Supabase', 'MongoDB', 'SQLAlchemy'],
+  },
+  {
+    category: 'Interactive & 360° Web',
+    emoji: '🔮',
+    color: 'from-fuchsia-500/10 to-pink-500/10 border-fuchsia-500/20',
+    skills: ['Pannellum', 'WebGL', '360° Panorama', 'GSAP', 'ScrollTrigger', 'Framer Motion'],
+  },
+  {
+    category: 'Cloud & Deployment',
+    emoji: '☁️',
+    color: 'from-sky-500/10 to-cyan-500/10 border-sky-500/20',
+    skills: ['Vercel', 'Google Cloud', 'Cloud Run', 'Firebase Hosting'],
   },
   {
     category: 'Tools',
     emoji: '🛠️',
-    color: 'from-rose-500/10 to-pink-500/10 border-rose-500/20',
-    skills: ['Git', 'GitHub', 'VS Code', 'Linux', 'Postman'],
+    color: 'from-rose-500/10 to-red-500/10 border-rose-500/20',
+    skills: ['Git', 'GitHub', 'VS Code', 'WSL', 'Postman', 'npm'],
   },
 ]
 
