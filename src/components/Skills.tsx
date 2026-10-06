@@ -10,46 +10,47 @@ interface SkillGroup {
 
 const skillGroups: SkillGroup[] = [
   {
-    category: 'Programming Languages',
-    emoji: '⌨️',
-    color: 'from-indigo-500/10 to-violet-500/10 border-indigo-500/20',
-    skills: ['Python', 'JavaScript', 'Java', 'C'],
-  },
-  {
     category: 'AI / Machine Learning',
     emoji: '🤖',
-    color: 'from-violet-500/10 to-purple-500/10 border-violet-500/20',
-    skills: ['Artificial Intelligence', 'Machine Learning', 'Computer Vision', 'Face Recognition'],
+    color: 'from-violet-500/10 to-indigo-500/10 border-violet-500/20',
+    skills: [
+      'Artificial Intelligence',
+      'Machine Learning',
+      'Computer Vision',
+      'Face Recognition',
+      'Image Processing',
+      'OpenCV',
+    ],
   },
   {
-    category: 'Data & Analytics',
-    emoji: '📊',
-    color: 'from-cyan-500/10 to-sky-500/10 border-cyan-500/20',
-    skills: ['Data Analysis', 'Pandas', 'NumPy', 'SQL', 'MySQL'],
+    category: 'Programming',
+    emoji: '💻',
+    color: 'from-indigo-500/10 to-blue-500/10 border-indigo-500/20',
+    skills: ['Python', 'Java', 'C', 'JavaScript', 'SQL'],
   },
   {
     category: 'Web Development',
     emoji: '🌐',
     color: 'from-emerald-500/10 to-teal-500/10 border-emerald-500/20',
-    skills: ['HTML', 'CSS', 'React', 'Flask', 'Node.js', 'REST APIs', 'Tailwind CSS'],
+    skills: ['React.js', 'Flask', 'Node.js', 'REST APIs', 'HTML5', 'CSS3', 'Tailwind CSS'],
   },
   {
-    category: 'Databases',
-    emoji: '🗄️',
+    category: 'Data & Analytics',
+    emoji: '📊',
+    color: 'from-cyan-500/10 to-sky-500/10 border-cyan-500/20',
+    skills: ['Pandas', 'NumPy', 'Data Analysis', 'MySQL', 'Data Visualization'],
+  },
+  {
+    category: 'Cloud & DevOps',
+    emoji: '☁️',
     color: 'from-amber-500/10 to-orange-500/10 border-amber-500/20',
-    skills: ['MySQL', 'SQLite', 'MongoDB', 'Firebase', 'Supabase'],
+    skills: ['AWS', 'Google Cloud', 'Docker', 'GitHub Actions', 'Vercel'],
   },
   {
-    category: 'Libraries & Frameworks',
-    emoji: '📦',
-    color: 'from-sky-500/10 to-blue-500/10 border-sky-500/20',
-    skills: ['OpenCV', 'face_recognition', 'SQLAlchemy', 'Framer Motion', 'Vite'],
-  },
-  {
-    category: 'Tools & Platforms',
+    category: 'Tools',
     emoji: '🛠️',
     color: 'from-rose-500/10 to-pink-500/10 border-rose-500/20',
-    skills: ['Git', 'GitHub', 'VS Code', 'Vercel', 'Google Cloud'],
+    skills: ['Git', 'GitHub', 'VS Code', 'Linux', 'Postman'],
   },
 ]
 
